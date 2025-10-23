@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+dist/
+build/
+.DS_Store
+
+.env
+site/
+outputs/newsletters/
+outputs/newsletter_2*.html
+outputs/newsletter_2*.md
+outputs/flux_prompts/
+outputs/images/*.png
+outputs/knowledge_graphs/
+# Allow sample newsletter for deployment
+!outputs/newsletter_sample.html
