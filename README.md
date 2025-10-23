@@ -1,4 +1,4 @@
-# AI News LangGraph - Multi-Agent Cancer Research System
+# AI-new-aggregator - Multi-Agent Cancer Research System
 
 A sophisticated multi-agent system built with LangGraph for aggregating, analyzing, and presenting AI news in cancer research. This project implements a collaborative agent workflow similar to CrewAI but using LangGraph's powerful state management and orchestration capabilities.
 
@@ -43,7 +43,7 @@ Six major enhancements have been added to make this system production-ready:
 ## Project Structure
 
 ```
-AI_NEWS_LANGGRAPH/
+AI-new-aggregator/
 ├── src/ai_news_langgraph/
 │   ├── __init__.py
 │   ├── main.py                      # Entry point with CLI
@@ -97,7 +97,7 @@ AI_NEWS_LANGGRAPH/
 1. **Clone the repository**:
 ```bash
 git clone <your-repo-url>
-cd AI_NEWS_LANGGRAPH
+cd ai-news-aggregator
 ```
 
 2. **Install dependencies**:
@@ -117,7 +117,7 @@ uv pip install -e .
 The project uses python-dotenv to load environment variables. It will automatically search for `.env` files in the following locations (in order):
 
 1. Current working directory
-2. AI_NEWS_LANGGRAPH project root
+2. ai-news-aggregator project root
 3. `../ai_news/.env` (shared with original ai_news project)
 4. `.env.example` (as fallback)
 
